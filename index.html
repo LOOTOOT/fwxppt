@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Literary Devices: Simile, Metaphor, and Personification</title>
     <style>
+        /* Global styles */
         * {
             margin: 0;
             padding: 0;
@@ -17,6 +18,7 @@
             overflow: hidden;
         }
         
+        /* Slide container */
         .slide-container {
             width: 100vw;
             height: 100vh;
@@ -24,6 +26,7 @@
             overflow: hidden;
         }
         
+        /* Individual slides */
         .slide {
             position: absolute;
             width: 100%;
@@ -42,6 +45,7 @@
             transform: translateX(0);
         }
         
+        /* Title slide */
         .slide-title {
             text-align: center;
             background: linear-gradient(135deg, #6e8efb, #a777e3);
@@ -59,6 +63,7 @@
             margin-bottom: 30px;
         }
         
+        /* Content slides */
         .slide h2 {
             font-size: 2.5em;
             margin-bottom: 30px;
@@ -82,6 +87,7 @@
             margin-bottom: 25px;
         }
         
+        /* Image placeholders */
         .image-placeholder {
             width: 100%;
             height: 300px;
@@ -92,11 +98,9 @@
             margin: 20px 0;
             border: 2px dashed #ccc;
             color: #999;
-            font-style: italic;
-            padding: 20px;
-            text-align: center;
         }
         
+        /* Table styles */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -119,6 +123,7 @@
             background-color: #f2f2f2;
         }
         
+        /* Navigation controls */
         .nav-controls {
             position: absolute;
             bottom: 30px;
@@ -142,6 +147,7 @@
             background-color: #a777e3;
         }
         
+        /* Bilingual toggle button */
         .bilingual-toggle {
             position: absolute;
             bottom: 30px;
@@ -160,6 +166,7 @@
             background-color: #6e8efb;
         }
         
+        /* Bilingual text */
         .en {
             display: block;
         }
@@ -169,6 +176,7 @@
             color: #6e8efb;
         }
         
+        /* Bilingual mode */
         .bilingual-mode .en {
             margin-bottom: 5px;
         }
@@ -178,6 +186,7 @@
             margin-bottom: 15px;
         }
         
+        /* Slide indicators */
         .slide-indicator {
             position: absolute;
             bottom: 30px;
@@ -199,6 +208,7 @@
             background-color: #6e8efb;
         }
         
+        /* Exercise styling */
         .exercise {
             background-color: #f0f8ff;
             padding: 20px;
@@ -212,11 +222,13 @@
             font-size: 1.4em;
         }
         
+        /* Example styling */
         .example {
             font-style: italic;
             color: #555;
         }
         
+        /* Highlight for key terms */
         .highlight {
             color: #a777e3;
             font-weight: bold;
@@ -228,26 +240,20 @@
 <div class="slide-container">
     <!-- Slide 1: Title -->
     <div class="slide slide-title active" id="slide-1">
-        <h1>
-            <div class="en">Literary Devices: Simile, Metaphor, and Personification</div>
-            <div class="zh">修辞手法：明喻、暗喻和拟人</div>
-        </h1>
-        <h2>
-            <div class="en">Enhancing Communication Through Figurative Language</div>
-            <div class="zh">通过比喻性语言增强交流</div>
-        </h2>
-        <p>
-            <div class="en">[by 范文昕]</div>
-            <div class="zh">[source from meee]</div>
-        </p>
+        <h1>Literary Devices: Simile, Metaphor, and Personification</h1>
+        <h2>Enhancing Communication Through Figurative Language</h2>
+        <p>[Your names and class information]</p>
+        
+        <div class="en">Literary Devices: Simile, Metaphor, and Personification</div>
+        <div class="zh">修辞手法：明喻、暗喻和拟人</div>
+        
+        <div class="en">Enhancing Communication Through Figurative Language</div>
+        <div class="zh">通过比喻性语言增强交流</div>
     </div>
 
     <!-- Slide 2: Table of Contents -->
     <div class="slide" id="slide-2">
-        <h2>
-            <div class="en">Table of Contents</div>
-            <div class="zh">目录</div>
-        </h2>
+        <h2>Table of Contents</h2>
         
         <ul>
             <li>
@@ -325,8 +331,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: A colorful illustration showing three columns with visual representations of simile, metaphor, and personification -->
             <!-- Prompt: "Educational illustration showing three columns labeled simile, metaphor, and personification with colorful visual examples of each literary device, digital art style, clear and professional" -->
-            <!-- Dimensions: 1200px × 600px -->
+            <!-- Suggested dimensions: 1200px × 600px -->
         </div>
     </div>
 
@@ -386,8 +393,9 @@
         </h2>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Sparkling eyes with diamonds comparison -->
             <!-- Prompt: "Split image showing human eyes that sparkle brightly on one side and brilliant diamonds on the other side, connected by 'like', educational illustration for simile" -->
-            <!-- Dimensions: 800px × 400px -->
+            <!-- Suggested dimensions: 800px × 400px -->
         </div>
         <p class="example">
             <div class="en">"Her eyes sparkled like diamonds"</div>
@@ -395,8 +403,9 @@
         </p>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Peaceful baby and angel comparison -->
             <!-- Prompt: "Split image showing a peacefully sleeping baby on one side and a serene angel on the other, connected by 'as...as', soft pastel colors, educational illustration" -->
-            <!-- Dimensions: 800px × 400px -->
+            <!-- Suggested dimensions: 800px × 400px -->
         </div>
         <p class="example">
             <div class="en">"The baby slept as peacefully as an angel"</div>
@@ -404,8 +413,9 @@
         </p>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Runner and lightning comparison -->
             <!-- Prompt: "Split image showing a fast runner at full sprint on one side and a dramatic lightning bolt on the other, connected by 'as fast as', dynamic composition, educational illustration" -->
-            <!-- Dimensions: 800px × 400px -->
+            <!-- Suggested dimensions: 800px × 400px -->
         </div>
         <p class="example">
             <div class="en">"The runner was as fast as lightning"</div>
@@ -519,8 +529,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Visual representation of a metaphor -->
             <!-- Prompt: "Educational illustration showing a person being presented as 'the soul of a team', with team members surrounding and connected to the central figure with energy lines, modern digital art style" -->
-            <!-- Dimensions: 900px × 500px -->
+            <!-- Suggested dimensions: 900px × 500px -->
         </div>
     </div>
 
@@ -580,8 +591,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Visual representation of different types of metaphors -->
             <!-- Prompt: "Educational illustration showing three types of metaphors: nouns, verbs, and adjectives as metaphors, with visual examples of each in separate panels, clean modern design" -->
-            <!-- Dimensions: 1000px × 600px -->
+            <!-- Suggested dimensions: 1000px × 600px -->
         </div>
     </div>
 
@@ -687,8 +699,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Visual representation of personification -->
             <!-- Prompt: "Educational illustration showing personification with an angry storm cloud with a face expressing rage, and an angry sea with wave-arms tossing a small boat, dramatic lighting, clear visual metaphor" -->
-            <!-- Dimensions: 900px × 500px -->
+            <!-- Suggested dimensions: 900px × 500px -->
         </div>
     </div>
 
@@ -740,8 +753,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Multiple examples of personification in visual form -->
             <!-- Prompt: "Educational illustration with multiple panels showing different examples of personification: wind whispering to trees, opportunity as a person knocking on a door, and flowers dancing in breeze, whimsical style, clear examples" -->
-            <!-- Dimensions: 1000px × 600px -->
+            <!-- Suggested dimensions: 1000px × 600px -->
         </div>
     </div>
 
@@ -879,8 +893,9 @@
         </table>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Visual comparison of the three devices -->
             <!-- Prompt: "Educational infographic comparing simile, metaphor and personification with visual examples of 'eyes and stars' theme for each: eyes like stars (simile), eyes are stars (metaphor), stars winking (personification), clean design with clear labels" -->
-            <!-- Dimensions: 1000px × 600px -->
+            <!-- Suggested dimensions: 1000px × 600px -->
         </div>
     </div>
 
@@ -932,8 +947,9 @@
         </ul>
         
         <div class="image-placeholder">
+            <!-- Image suggestion: Visual summarizing all three devices -->
             <!-- Prompt: "Educational conclusion image showing the power of literary devices with a vibrant illustration of a reader's mind being filled with colorful imagery as they read text with similes, metaphors and personification highlighted in different colors" -->
-            <!-- Dimensions: 900px × 500px -->
+            <!-- Suggested dimensions: 900px × 500px -->
         </div>
     </div>
 
@@ -946,20 +962,20 @@
         
         <ul>
             <li>
-                <div class="en">[范文昕] - [材料收集]</div>
-                <div class="zh">[范文昕] - [材料收集]</div>
+                <div class="en">[Team Member 1 Name] - [Role]</div>
+                <div class="zh">[团队成员1姓名] - [角色]</div>
             </li>
             <li>
-                <div class="en">[顾小璐] - [PPT大师]</div>
-                <div class="zh">[顾小璐] - [PPT制作]</div>
+                <div class="en">[Team Member 2 Name] - [Role]</div>
+                <div class="zh">[团队成员2姓名] - [角色]</div>
             </li>
             <li>
-                <div class="en">[方英楠] - [主讲]</div>
-                <div class="zh">[方英楠] - [性感女讲师]</div>
+                <div class="en">[Team Member 3 Name] - [Role]</div>
+                <div class="zh">[团队成员3姓名] - [角色]</div>
             </li>
             <li>
-                <div class="en">[何志桐] - [主讲]</div>
-                <div class="zh">[何志桐] - [优雅女讲师]</div>
+                <div class="en">[Team Member 4 Name] - [Role]</div>
+                <div class="zh">[团队成员4姓名] - [角色]</div>
             </li>
         </ul>
         
